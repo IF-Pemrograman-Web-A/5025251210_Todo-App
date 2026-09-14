@@ -1,6 +1,6 @@
 # 5025251210_Todo-App
 
-##Todo List
+## Todo List
 
 Dibuat dengan menggunakan CSS dan HTML,untuk web tipenya masih static sesuai dengan ketentuan tugas yang tidak memperbolehkan menggunakan jsx. 
 Kemudian saya juga menyesuaikan terkait beberapa peraturan
@@ -10,6 +10,6 @@ Kemudian saya juga menyesuaikan terkait beberapa peraturan
 *Memiliki tombol tambah task 
 *Menggunakan data dummy untuk list todo
 
-##Hasil
+## Hasil
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ec3971f8-1b9f-428b-b87b-a215777fd287" />
