@@ -1,0 +1,91 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  flood-color:floralwhite;
+  border-color: black;
+  background-color: whitesmoke;
+  border-top-color: aquamarine;
+  text-align:center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  background-color: aquamarine;
+
+}
+
+.app-layout {
+  
+     display: flex;
+     gap:20px;
+     background-color: azure;
+     flex: 1;
+
+}
+
+.panel-list {
+    flex-wrap: wrap-reverse;
+    flex-grow: 2;
+
+}
+
+.panel-detail {
+  flex-grow: 1;
+  flex-direction: column;
+  background-color: rgba(100, 255, 218, 0.2);
+}
+
+
+.todo-form {
+  background-color: beige;
+}
+
+.todo-form input,
+.todo-form textarea {
+  width: 80px;
+  padding: 20px,50px;
+  background-color: blanchedalmond;
+}
+
+.todo-form button {
+  cursor: default;
+  pointer-events: all;
+  background-color:black;
+}
+
+.todo-list ul {
+  list-style:square; 
+}
+
+.todo-item {
+  padding: 15px;
+  display:flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.todo-title,
+.todo-deskripsi,
+.todo-status {
+  display: block;
+}
+.app-footer {
+  background-color: aquamarine;
+  
+}
+
+@media (max-width: 768px) {
+  .app-layout {
+    flex-direction: column;
+  }
+}
+
