@@ -9,6 +9,8 @@ Kemudian saya juga menyesuaikan terkait beberapa peraturan
 *2 Panel dengan aturan kiri untuk list tugas dan kanan detail
 *Memiliki tombol tambah task 
 *Menggunakan data dummy untuk list todo
+Berikut untuk linknya:
+https://fanyahmad.github.io/To-Do-List-Static/
 
 ## Hasil
 
