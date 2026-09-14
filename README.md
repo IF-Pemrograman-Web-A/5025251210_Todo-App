@@ -10,6 +10,7 @@ Kemudian saya juga menyesuaikan terkait beberapa peraturan
 *Memiliki tombol tambah task 
 *Menggunakan data dummy untuk list todo
 Berikut untuk linknya:
+
 https://fanyahmad.github.io/To-Do-List-Static/
 
 ## Hasil
