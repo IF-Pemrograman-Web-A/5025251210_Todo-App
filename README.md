@@ -16,4 +16,5 @@ https://fanyahmad.github.io/To-Do-List-Static/
 
 ## Hasil
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ec3971f8-1b9f-428b-b87b-a215777fd287" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6401109d-5aa7-4f2b-9087-9dba046f56c3" />
+
