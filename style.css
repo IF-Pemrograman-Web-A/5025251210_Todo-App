@@ -88,3 +88,25 @@ body {
     flex-direction: column;
   }
 }
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark-mode .app-header,
+body.dark-mode .app-footer {
+  background-color: #1f1f1f;
+  color: #f0f0f0;
+}
+
+body.dark-mode .panel-list,
+body.dark-mode .panel-detail,
+body.dark-mode .todo-form {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+.todo-item.completed .todo-title {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
