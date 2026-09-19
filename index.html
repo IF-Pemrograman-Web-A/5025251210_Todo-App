@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo List Bagus Mantap</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
+
 <body>
 
     <header class="app-header">
     <h1>SimList</h1>
+    <button id="theme-toggle" type="button">🌙</button>
     </header>
 
     <div class="app-layout">
@@ -18,36 +21,48 @@
 
       <section class="todo-list">
         <h2>Daftar Todo</h2>
-        <ul>
+        <ul id="todo-list">
           
             <li class="todo-item">
+              <input type="checkbox" class="todo-checkbox">
               <span class="todo-title">Belajar HTML</span>
               <span class="todo-status">Selesai</span>
+              <button type="button" class="btn-edit">Edit</button>
+              <button type="button" class="btn-delete">Hapus</button>
+
             </li>
 
             <li class="todo-item">
+              <input type="checkbox" class="todo-checkbox">
               <span class="todo-title">Belajar Jarkom</span>
               <span class="todo-status">Selesai</span>
+              <button type="button" class="btn-edit">Edit</button>
+              <button type="button" class="btn-delete">Hapus</button>
             </li>
 
             <li class="todo-item">
+              <input type="checkbox" class="todo-checkbox">
               <span class="todo-title">Siapin GNS3</span>
               <span class="todo-status">Selesai</span>
+              <button type="button" class="btn-edit">Edit</button>
+              <button type="button" class="btn-delete">Hapus</button>
             </li>
 
             <li class="todo-item">
+              <input type="checkbox" class="todo-checkbox">
               <span class="todo-title">Tugas KKA</span>
               <span class="todo-status">Belum</span>
+              <button type="button" class="btn-edit">Edit</button>
+              <button type="button" class="btn-delete">Hapus</button>
             </li>
         </ul>
       </section>
 
       <section class="todo-form">
         <h2>Tambah Task</h2>
-        <form>
-            <!-- Bentar -->
-            <label for="nama">Nama</label>
-            <input type="text" id="nama" name="nama" placeholder="Nama task">
+        <form id="todo-form">
+            <label for="input-title">Nama</label>
+            <input type="text" id="input-title" name="input-title" placeholder="Nama task">
 
             <label for="deskripsi">Deskripsi</label>
             <textarea id="deskripsi" name="deskripsi" placeholder="Deskripsi task"></textarea>
