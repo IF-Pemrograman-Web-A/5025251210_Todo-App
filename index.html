@@ -8,44 +8,31 @@
 </head>
 <body>
 
+
     <header class="app-header">
     <h1>SimList</h1>
+    <button id="theme-toggle" type="button" aria-pressed="false">🌙 Dark Mode</button>
+    <button id="btn-notifikasi" type="button">🔔 Aktifkan Notifikasi</button>
+    <p id="status-notifikasi" role="status"></p>
     </header>
 
-    <div class="app-layout">
+    <div class="app-layout" id="konten-utama">
 
     <main class="panel-list">
 
+      <!--form-->
+
       <section class="todo-list">
         <h2>Daftar Todo</h2>
-        <ul>
-          
-            <li class="todo-item">
-              <span class="todo-title">Belajar HTML</span>
-              <span class="todo-status">Selesai</span>
-            </li>
+        <ul id="todo-list-items" aria-live="polite">
 
-            <li class="todo-item">
-              <span class="todo-title">Belajar Jarkom</span>
-              <span class="todo-status">Selesai</span>
-            </li>
-
-            <li class="todo-item">
-              <span class="todo-title">Siapin GNS3</span>
-              <span class="todo-status">Selesai</span>
-            </li>
-
-            <li class="todo-item">
-              <span class="todo-title">Tugas KKA</span>
-              <span class="todo-status">Belum</span>
-            </li>
         </ul>
       </section>
 
       <section class="todo-form">
         <h2>Tambah Task</h2>
-        <form>
-            <!-- Bentar -->
+        <form id="todo-form">
+            <!-- isi form -->
             <label for="nama">Nama</label>
             <input type="text" id="nama" name="nama" placeholder="Nama task">
 
@@ -54,6 +41,21 @@
 
             <label for="tanggal">Tanggal</label>
             <input type="date" id="tanggal" name="tanggal">
+
+            <label for="waktu-notifikasi">Waktu Notifikasi</label>
+            <input type="time" id="waktu-notifikasi" name="waktu-notifikasi">
+
+            <label for="gambar">Gambar</label>
+            <input type="file" id="gambar" name="gambar" accept="image/*">
+            <img id="preview-gambar" alt="" hidden>
+
+            <button type="button" id="btn-kamera">Buka Kamera</button>
+
+              <div id="area-kamera" hidden>
+              <video id="video-kamera" autoplay playsinline muted></video>
+              <button type="button" id="btn-jepret">Ambil Foto</button>
+              <button type="button" id="btn-tutup-kamera">Tutup Kamera</button>
+            </div>
 
             <button type="submit">Tambah Task</button>
         </form>
@@ -76,6 +78,8 @@
   <footer class="app-footer">
     <p>No Comot Comot Ya</p>
   </footer>
+
+  <script src="script.js" defer></script>
 
 </body>
 </html>
