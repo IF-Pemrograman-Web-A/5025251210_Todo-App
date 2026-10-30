@@ -1,20 +1,11 @@
-# 5025251210_Todo-App
+﻿# To-Do-List-Static
 
-## Todo List
+ <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/aa779160-1096-4b82-8cc3-4f720436192e" />
 
-Dibuat dengan menggunakan CSS dan HTML,untuk web tipenya masih static sesuai dengan ketentuan tugas yang tidak memperbolehkan menggunakan jsx. 
-Kemudian saya juga menyesuaikan terkait beberapa peraturan
-*Wajib Static
-*Responsive di berbagai ukuran dan device
-*2 Panel dengan aturan kiri untuk list tugas dan kanan detail
-*Memiliki tombol tambah task 
-*Menggunakan data dummy untuk list todo
+ <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cad7004d-70cb-4c2a-b232-a0c4c8f9c242" />
 
-Berikut untuk linknya:
+ <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/94094490-c12a-40a6-be89-1b629658754c" />
 
-https://fanyahmad.github.io/To-Do-List-Static/
 
-## Hasil
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6401109d-5aa7-4f2b-9087-9dba046f56c3" />
 

@@ -24,8 +24,8 @@ body {
 
 .app-layout {
   
-     display: flex;
-     gap:20px;
+    display: flex;
+    gap:20px;
      background-color: azure;
      flex: 1;
 
@@ -88,3 +88,64 @@ body {
     flex-direction: column;
   }
 }
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark-mode .app-header,
+body.dark-mode .app-footer {
+  background-color: #1f1f1f;
+  color: #f0f0f0;
+}
+
+body.dark-mode .panel-list,
+body.dark-mode .panel-detail,
+body.dark-mode .todo-form {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+.todo-item.completed .todo-title {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* ---------- Sidebar ---------- */
+.menu-bar {
+  min-width: 160px;
+  background-color: rgba(100, 255, 218, 0.2);
+  text-align: left;
+}
+.menu-bar ul { list-style: none; }
+.menu-bar a {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+.menu-bar a.active {
+  background-color: aquamarine;
+  font-weight: bold;
+}
+.user-switch { padding: 12px; }
+.user-switch label,
+.user-switch select { display: block; margin-bottom: 6px; }
+body.dark-mode .menu-bar { background-color: #1e1e1e; }
+body.dark-mode .menu-bar a.active { background-color: #2c2c2c; }
+
+/* ---------- Komponen todo ---------- */
+.inline-form { display: inline; }
+.todo-item { align-items: center; }
+.todo-item a.todo-title { color: inherit; }
+.todo-owner { font-size: 0.85em; opacity: 0.7; }
+.btn-link { color: inherit; margin: 0 6px; }
+.flash {
+  background-color: #fff3cd;
+  color: #333;
+  padding: 10px;
+  margin: 10px;
+}
+.todo-detail span { margin: 6px 0; }
+#preview-gambar,
+#video-kamera { max-width: 200px; display: block; margin: 8px auto; }
