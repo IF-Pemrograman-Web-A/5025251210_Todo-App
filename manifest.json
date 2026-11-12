@@ -1,0 +1,16 @@
+{
+  "name": "SimList - Todo App",
+  "short_name": "SimList",
+  "description": "Todo app yang tetap bisa dibuka saat offline.",
+  "start_url": "./index.php",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f5f5",
+  "theme_color": "#7fffd4",
+  "lang": "id",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "225x225", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "600x600", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "600x600", "type": "image/png", "purpose": "maskable" }
+  ]
+}
